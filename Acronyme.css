@@ -1,0 +1,27 @@
+/* H1 : bordure effet 3D(clair/foncé) bleu foncé (navy) épaisseur 10pt, fond #DDA0DD, 
+          texte police Arial, 16pt, centré, bleu foncé (navy), 
+          marges intérieures 5pt, largeur de l'élément 30%, marge droite et gauche auto, marge du dessous 20pt 
+*/
+h1{border: outset 10pt;border-color: navy;
+	background-color:#DDA0DD;
+	font-family: "arial"; text-align:center;font-size: 16pt;
+	color: navy;padding-top: 5pt;padding-bottom: 20pt; 
+	margin-right: auto;margin-left: auto;
+	width: 30%; }
+/*Pour P : texte gras, violet */
+p{font-weight: bold;color: purple;}
+
+/*Pour A : police Courier New, fond #D8BFD8 */
+#div1{border:solid 5pt;
+	border-color: navy; 
+	background-color:#D8BFD8;font-family: 	"Courier New";margin-bottom: 10pt; }
+/*Pour TABLE : fond rgb(255,105,180), largeur de l'élément 50%, marge gauche et marge droite auto */
+table{background-color:rgb(255,105,180);margin-left: auto;margin-right: auto;width:50%;}
+/*Pour THEAD : texte centré, hauteur de l'entête 30pt */
+thead{text-align: center;height: 30pt;}
+/*Pour TBODY : fond rgb(255,192,203) */
+ tbody{background-color:rgb(255,192,203) }     
+/*Rajouter deux classes.definition : bordure effet 3D(foncé/clair) #4B0082 5pt, fond rgb(176,224,230) */
+.definition{border:solid 5pt;border-color:#4B0082;background-color:rgb(176,224,230);  } 
+/*.bordure : bordure blanche pointillé 3pt, marge intérieure gauche 3pt, droite 5pt, texte en #FF00FF */
+.bordure{border:dotted 3pt; padding-left: 3pt;padding-right: 5pt; color: #FF00FF}
